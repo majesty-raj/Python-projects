@@ -1,6 +1,6 @@
 #kklk
 import random
-
+import pandas
 def guess(x):
     random_number = random.randint(1, x)
     guess= int(input('enter ur num'))
